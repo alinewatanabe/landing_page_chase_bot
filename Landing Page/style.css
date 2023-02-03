@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Tomorrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #5E17EB 58.62% , #ad8af2 95.38%);
+}
+
+.Cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 28px;
+}
+
+.Imagem-Logo {
+    height: 24px;
+}
+
+.Topicos-Cabecalho {
+    display: flex;
+    gap: 37px;
+}
+
+.Topico-Cabecalho {
+    font-family: 'Rubik', sans-serif;
+    color: #d4eae5;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.Principal {
+    border-top: 0.4px solid #2FE4BC;
+    padding-top: 24px;
+    margin-bottom: 48px;
+}
+
+.Principal-Secao-Um {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Divisao {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Principal-Titulo{
+    font-family: 'Tomorrow', sans-serif;
+    color: #2FE4BC;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.Principal-Subtitulo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size:  24px;
+    color: #d4eae5;
+}
+
+.Principal-Botao{
+    background-color:#2FE4BC;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size:  24px;
+    color: #263151;
+}
+
+.Principal-Botao:hover {
+    background-color:#acf1e2;
+}
+
+.Principal-Imagem {
+    height: 380px;
+}
+
+.Principal-Secao-Dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.Principal-Secao-Dois-Titulo {
+    border-top: 0.4px solid #2FE4BC;
+    padding-top:48px;
+    padding-bottom: 18px;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2FE4BC;    
+}
+
+.Principal-Secao-Dois-Topico {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #d4eae5;  
+}
+
+.Rodape {
+    border-top: 0.4px solid #2FE4BC;
+    padding: 32px;
+}
+
+.Rodape-Imagem {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
