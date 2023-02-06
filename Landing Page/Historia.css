@@ -44,7 +44,7 @@ body {
 
 .Principal-Secao-Um {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
