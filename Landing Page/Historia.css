@@ -41,6 +41,19 @@ body {
     margin-bottom: 48px;
 }
 
+
+.Principal-Secao-Um {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
 .Rodape {
     border-top: 0.4px solid #2FE4BC;
     padding: 32px;
