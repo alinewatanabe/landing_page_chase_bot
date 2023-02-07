@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Tomorrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.53deg, #3c02b0 58.62% , #682ce0 95.38%);
+}
+
+.Cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 28px;
+}
+
+.Imagem-Cabecalho {
+    height: 24px;
+}
+
+.Menu-Cabecalho {
+    display: flex;
+    gap: 37px;
+}
+
+.Topico-Cabecalho {
+    font-family: 'Rubik', sans-serif;
+    color: #d4eae5;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.Principal {
+    border-top: 0.4px solid #2FE4BC;
+    margin-bottom: 48px;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-bottom: 10%;
+}
+
+.Principal-Secao-Titulo {
+    padding-top: 48px;
+}
+
+.Principal-Titulo {    
+    font-family: 'Tomorrow', sans-serif;
+    color: #2FE4BC;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.Principal-Secao-Textos {
+    display: flex;
+    flex-direction: row;
+}
+
+.Principal-Divisao-Um {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 24px;
+}
+
+.Principal-Divisao-Dois {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 24px;
+}
+
+.Principal-Subtitulo {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 500;
+    font-size:  25px;
+    color: #31D3DC;
+}
+
+.Principal-Texto {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size:  18px;
+    text-align: justify;
+    color: #d4eae5;
+}
+
+.Rodape {
+    border-top: 0.4px solid #2FE4BC;
+    padding: 32px;
+}
+
+.Rodape-Imagem {
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+a:link {
+    color:#31D3DC;
+}
+
+a:hover {
+    color:#26bac2;
+}
