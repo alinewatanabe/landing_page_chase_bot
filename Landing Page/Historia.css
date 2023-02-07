@@ -92,12 +92,25 @@ body {
 .Rodape {
     border-top: 0.4px solid #2FE4BC;
     padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Rodape-Divisao-Um {
+    padding-top: 10px;
+}
+
+.Rodape-Texto {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d4eae5;
 }
 
 .Rodape-Imagem {
     height: 40px;
-    display: block;
-    margin: 0 auto;
+    padding-left: 15px;
 }
 
 a {
