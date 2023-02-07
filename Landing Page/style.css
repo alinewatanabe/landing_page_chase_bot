@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #5E17EB 58.62% , #ad8af2 95.38%);
+    background: linear-gradient(68.53deg, #3c02b0 58.62% , #682ce0 95.38%);
 }
 
 .Cabecalho {
@@ -125,4 +125,8 @@ body {
     height: 40px;
     display: block;
     margin: 0 auto;
+}
+
+a:hover {
+    color:#26bac2;
 }
